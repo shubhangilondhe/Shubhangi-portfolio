@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Shubhangi londhe | Full-Stack Developer | Programmer | Web Developer |
+      Freelancer
+    </title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Portfolio</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Portfolio</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./images/me.jpg" alt="shubhangi profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Shubhangi londhe</h1>
+        <p class="section__text__p2">Full-Stack Developer</p>
+        <div class="btn-container">
+          <a
+            href="./images/React resume.pdf"
+            download
+            onclick="window.open('./resume/Resume.pdf')"
+          >
+            <button class="btn btn-color-2">Download CV</button>
+          </a>
+
+          <button class="btn btn-color-1" onclick="location">Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <a
+            href="https://www.linkedin.com/in/shubhangi-londhe-778b571ba/"
+            target="_blank"
+          >
+            <img
+              src="./images/linkedin.png"
+              class="icon"
+              alt="My LinkedIn profile"
+            />
+          </a>
+          <a href="https://github.com//" target="_blank">
+            <img src="images/github.png" class="icon" alt="My Github profile" />
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            class="about-pic"
+            src="./images/me.jpg"
+            alt="Profile picture"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                class="icon"
+                src="./images/experience.png"
+                alt="Experience icon"
+              />
+              <h3>Experience</h3>
+              
+              <br />
+              <p style="font-size: 15px">
+                <b>web developer intern (06/2023 - 12/2023)</b><br />Borgward
+                Technology , Pune
+              </p>
+            </div>
+            <div class="details-container">
+              <img
+                class="icon"
+                src="./images/education.png"
+                alt="Education icon"
+              />
+              <h3>Education</h3>
+              <p style="font-size: 15px">
+                <b>B.E (Computer Engineering)</b><br /> Savitribai phule pune ,university<br />07/2019 - 05/2023 <br />8.82<br>
+              </p>
+              
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Hello! I'm shubhangi, a passionate Full Stack Developer with
+              expertise in crafting seamless web experiences and user-friendly
+              applications. With a keen eye for detail and dedication to clean
+              code, I take pride in delivering high-quality, scalable solutions
+              that adhere to industry best practices. Collaborating with
+              cross-functional teams is at the heart of my development process,
+              enabling me to create robust solutions that push the boundaries of
+              web development. I'm always seeking new challenges and
+              opportunities to create impactful web experiences. Feel free to
+              reach out to me on
+              <a
+                href="./images/whatsapp.png"
+                target="_blank"
+                style="text-decoration: none; color: darkgreen"
+                >WhatsApp</a
+              >, and let's embark on a development journey together. Thank you
+              for visiting my portfolio, and I look forward to connecting with
+              you!
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="images/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  class="icon"
+                  src="images/checkmark.png"
+                  alt="Experience icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  class="icon"
+                  src="images/checkmark.png"
+                  alt="Experience icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  class="icon"
+                  src="images/checkmark.png"
+                  alt="Experience icon"
+                />
+                <div>
+                  <h3>React.js</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            
+              <article>
+                <img
+                  class="icon"
+                  src="images/checkmark.png"
+                  alt="Experience icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+             
+              <article>
+                <img
+                  class="icon"
+                  src="images/checkmark.png"
+                  alt="Experience icon"
+                />
+                <div>
+                  <h3>Bootstrap</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Backend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  class="icon"
+                  src="images/checkmark.png"
+                  alt="Experience icon"
+                />
+                <div>
+                  <h3>Java</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              
+              <article>
+                <img
+                  class="icon"
+                  src="images/checkmark.png"
+                  alt="Experience icon"
+                />
+                <div>
+                  <h3>MySQL</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  class="icon"
+                  src="images/checkmark.png"
+                  alt="Experience icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  class="icon"
+                  src="images/checkmark.png"
+                  alt="Experience icon"
+                />
+                <div>
+                  <h3>Microsoft Azur</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./images/arrow.png"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+        alt=""
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                class="project-img"
+                src="./images/Screenshot 2024-02-28 212951.png"
+                alt="project-1"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Student Placement Predication System</h2>
+            <p>•This project investigates the effectiveness of two popular algorithms, namely K-Nearest Neighbors (KNN) and Random Forest(RF) for predict the placement of students according to their streams .
+                •It's also useful for predicting the next year's admission trends.
+                    
+                </p>
+            <br />
+            
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                class="project-img"
+                src="./images/Screenshot 2023-08-10 095351.png"
+                alt="project-1"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">amazon clone</h2>
+            <p>
+              This is one of the amazon clone
+            </p>
+            <br />
+           <a href="./amazon website.html"
+           target="_blank"> 
+                
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="alert();">
+                Live Demo
+              </button>
+            </a>
+          </div>
+        </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="images//arrow.png"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+        alt=""
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get In Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="images/email.png"
+            class="icon contact-icon"
+            alt="Email icon"
+          />
+          <p>
+            <a href="mailto:shubhangilondhe555@gmail.com" target="_blank" style="text-decoration: none;"
+              >shubhangilondhe555@gmail.com</a
+            >
+          </p>
+        </div>
+        
+        <div class="contact-info-container">
+          <img
+            src="images/whatsapp.png"
+            class="icon contact-icon"
+            alt="WhatsApp icon"
+          />
+          <p>
+            <a
+              href="https://wa.me/+918698438750"
+              target="_blank"
+              style="text-decoration: none"
+              >+91-8698438750</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+        &copy; 2024 shubhangi. All rights reserved.
+    </footer>
+    <script>
+      function toggleMenu() {
+        const menu = document.querySelector(".menu-links");
+        const icon = document.querySelector(".hamburger-icon");
+        menu.classList.toggle("open");
+        icon.classList.toggle("open");
+      }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.all.min.js"></script>
+    <script>
+      function alert() {
+        Swal.fire({
+          title: "Project Status",
+          html: "My project is currently under development.<br>Thank you for your interest!<br>Please check back later.",
+          icon: "info",
+          confirmButtonText: "Okay, got it!",
+        });
+      }
+    </script>
+  </body>
+</html>
